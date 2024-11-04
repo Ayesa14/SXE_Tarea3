@@ -59,3 +59,9 @@ sudo docker run -p 9080:80 -v /home/usuario/Apache:/usr/local/apache2/htdocs --n
 //segundo http://10.0.9.147:9080/
 ```
 
+## 7. Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+```bash
+//Modificamos el archivo html
+sudo nano /home/usuario/Apache/index.html
+//Comprobamos que funcione en el navegador
+```
